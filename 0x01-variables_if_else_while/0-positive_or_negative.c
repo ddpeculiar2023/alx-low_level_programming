@@ -1,10 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- *main - block
- *Return: 0
+ * main - main function to generate a random code
+ *
+ * Return: 0
+ *
  */
+
 int main(void)
 {
 	int n;
@@ -14,11 +18,14 @@ int main(void)
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
-	} else if (n == 0)
+	}
+	else if (n == 0)
 	{
 		printf("%d is zero\n", n);
-	} else
+	}
+	else if (n < 0) 
 	{
 		printf("%d is negative\n", n);
+	}	
 	return (0);
 }
