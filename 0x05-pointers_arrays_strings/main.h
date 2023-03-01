@@ -1,5 +1,8 @@
-#ifndef MAIN.F
-#define MAIN.F
+#ifndef MAIN_H
+#define MMAIN_H
+
+#include <stdio.h>
+#include <unistd.h>
 
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
