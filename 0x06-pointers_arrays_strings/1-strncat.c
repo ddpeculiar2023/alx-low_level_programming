@@ -1,4 +1,4 @@
-#include "main.h"
+1-strncat.c#include "main.h"
 /**
  * _strncat - concatenates string with n bytes from another string
  * @dest: destination string
